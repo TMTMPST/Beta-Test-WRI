@@ -1,3 +1,4 @@
+package jobsheet;
 import java.util.Scanner;
 
 public class myFirstJava {
@@ -10,7 +11,8 @@ public class myFirstJava {
 
         System.out.print("Masukan angka : ");
         N = input.nextInt();
-        int N2 = N/5;
+        sum = 0;
+        int N2 = N/2;
         for (int i = 1; i <= N; i++) {
             if ((i%2)==0) {
                 System.out.println("even number " + b + " is " + i );
@@ -21,7 +23,7 @@ public class myFirstJava {
         }
 
         System.out.println(sum);
-        avg = i / N2;
+        avg = sum / N2;
         System.out.println(avg);
     }
 }

@@ -1,3 +1,4 @@
+package jobsheet;
 import java.util.Scanner;
 
 public class test12 {
@@ -12,7 +13,7 @@ public class test12 {
             if ((j % 5) == 0) {
                 
             } else {
-                System.out.print(j);
+                System.out.println(j);
             }
         }
     }
